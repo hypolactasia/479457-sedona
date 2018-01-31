@@ -1,0 +1,19 @@
+.page-footer {
+  width: 320px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.page-footer__heading {
+  @include font-h;
+
+  font-size: 21px;
+  line-height: 26px;
+}
+
+.page-footer__logo {
+  @include font-p;
+
+  line-height: 26px;
+}

@@ -1,0 +1,48 @@
+@mixin visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+@mixin font-h {
+  font-family: $font-family;
+  font-size: 18px;
+  line-height: 26px;
+  color: $text-h-dark;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+@mixin font-p {
+  font-family: $font-family;
+  font-size: 14px;
+  line-height: 24px;
+  color: $text-p-dark;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@mixin font-btn {
+  font-family: $font-family;
+  font-size: 21px;
+  line-height: 26px;
+  color: $text-btn;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+@mixin btn {
+  display: block;
+  width: 280px;
+  min-height: 42px;
+  padding-top: 16px;
+  background-color: $color-btn;
+}
+

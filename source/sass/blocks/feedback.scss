@@ -1,0 +1,11 @@
+.feedback {
+  text-align: center;
+}
+
+.feedback__heading {
+  @include font-h;
+}
+
+.feedback__text {
+  @include font-p;
+}

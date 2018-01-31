@@ -1,0 +1,8 @@
+.site-list__item {
+  @include font-h;
+
+  text-align: center;
+  line-height: 40px;
+  color: $text-h-light;
+  text-decoration: none;
+}

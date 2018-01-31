@@ -1,0 +1,75 @@
+.features {
+  text-align: center;
+}
+
+.features__text {
+  @include font-p;
+
+  line-height: 26px;
+}
+
+.features__list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+
+.feature-list__item {
+  background-color: $bg-grey;
+
+  &--bluebg {
+    color: $text-h-light;
+    background-color: $bg-blue;
+  }
+}
+
+.feature__sub-list {
+  text-align: left;
+  list-style: none;
+  background-color: $bg-light;
+}
+
+.feature__heading {
+  @include font-h;
+  &--bluebg {
+    color: $text-h-light;
+  }
+}
+
+.feature__number {
+  @include font-p;
+
+  line-height: 21px;
+  &--bluebg {
+    color: $text-p-light;
+  }
+}
+
+.feature__text {
+  @include font-p;
+
+  line-height: 21px;
+  &--bluebg {
+    color: $text-p-light;
+  }
+}
+
+.features__promt {
+  text-align: center;
+}
+
+.features__heading {
+  @include font-h;
+  font-size: 21px;
+}
+
+.features__text {
+  @include font-p;
+}
+
+.features__btn {
+  margin: 0 auto;
+}
+
+
