@@ -1,0 +1,41 @@
+.pictures {
+  text-align: center;
+}
+
+.pictures__heading {
+  @include font-h;
+}
+
+.pictures__text {
+  @include font-p;
+
+  width: 290px;
+}
+
+.photo__info {
+  text-align: left;
+}
+
+.photo__heading {
+  @include font-h;
+
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.photo__author {
+  @include font-p;
+
+  text-transform: none;
+}
+
+.photo__likes {
+  @include font-h;
+
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.pictures__prompt {
+  text-align: center;
+}

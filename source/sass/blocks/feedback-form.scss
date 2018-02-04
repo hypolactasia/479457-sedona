@@ -1,0 +1,51 @@
+.feedback__form {
+  text-align: left;
+}
+
+.fieldset__legend {
+  @include font-h;
+
+  padding: 0;
+
+  text-align: center;
+}
+
+.input-info__label {
+  @include font-p;
+
+  line-height: 26px;
+}
+
+.radiobutton__label,
+.checkbox__label {
+  @include font-h;
+
+  text-transform: none;
+}
+
+.input-info__field {
+  @include font-h;
+
+  text-transform: none;
+  border: 0;
+  background-color: $color-input;
+
+  &::placeholder {
+    color: $text-h-dark;
+  }
+}
+
+.textarea {
+  @include font-h;
+
+  text-transform: none;
+  color: $text-h-dark;
+}
+
+.feedback__btn {
+  @include font-btn;
+  @include btn;
+  padding: 0;
+
+  border: 0;
+}

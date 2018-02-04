@@ -1,0 +1,21 @@
+.search__promt {
+  text-align: center;
+}
+
+.search__heading {
+  @include font-h;
+
+  font-size: 21px;
+}
+
+.search__text {
+  @include font-p;
+
+  width: 300px;
+}
+
+.search__btn {
+  @include btn;
+  @include font-btn;
+  margin: 0 auto;
+}

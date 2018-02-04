@@ -1,0 +1,26 @@
+.page-header__wrapper {
+  width: 320px;
+  min-height: 445px;
+
+  background-color: $bg-light;
+  background-image: url("../img/text-sedona-index.svg"), url("../img/bg-back-mobile@1x.jpg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: 20px 146px, -224px 56px;
+  background-size: 280px 213px, 768px 389px;
+}
+
+.page-header__logo {
+  z-index: 1;
+
+  margin: 0 110px;
+}
+
+.page-header__button {
+  width: 23px;
+  height: 22px;
+  padding: 0;
+
+  border: 0;
+  background-color: transparent;
+  background-image: url("../img/icon-menu.svg");
+}

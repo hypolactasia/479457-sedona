@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
   <title>Фото и видео</title>
 </head>
 <body>
   <header class="page-header">
     <nav class="main-nav">
+
+      <button class="main-nav__button-exit" type="button"><span class="visually-hidden">Закрыть меню</span></button>
 
       <ul class="main-nav__list site-list">
         <li class="site-list__item">
@@ -26,22 +29,19 @@
         </li>
       </ul>
 
-      <div class="page-header__logo-wrapper">
+      <div class="page-header__wrapper">
         <a class="page-header__logo">
-          <img class="page-header__logo-image" src="http://placehold.it/186x94" width="102" height="83" alt="Седона, штат Аризона">
+          <img class="page-header__logo-image" src="img/logo-sedona-mobile.svg" width="102" height="83" alt="Седона, штат Аризона">
         </a>
-      </div>
 
       <button class="page-header__button" type="button">
         <span class="visually-hidden">Открыть/скрыть навигацию</span>
       </button>
+      </div>
     </nav>
   </header>
 
   <main class="page-main">
-    <section class="greeting">
-      <img class="greeting__image" src="http://placehold.it/460x350" width="460" height="350" alt="Sedona">
-    </section>
 
     <section class="pictures">
       <div class="pictures__prompt">
@@ -54,7 +54,7 @@
       <article class="pictures__photo photo">
         <h3 class="visually-hidden">Фото Седоны</h3>
         <a class="photo__link" href="#">
-          <img class="photo__image" src="http://placehold.it/280x280" alt="Неродные просторы">
+          <img class="photo__image" src="img/photo-sunset-mobile@1x.jpg" alt="Неродные просторы" width="280" height="280">
         </a>
         <section class="photo__info">
           <div class="photo__title">
@@ -70,7 +70,7 @@
       <article class="pictures__photo photo">
         <h3 class="visually-hidden">Фото Седоны</h3>
         <a class="photo__link" href="#">
-          <img class="photo__image" src="http://placehold.it/280x280" alt="Местная растительность">
+          <img class="photo__image" src="img/photo-cactus-mobile@1x.jpg" alt="Местная растительность" width="280" height="280">
         </a>
         <section class="photo__info">
           <div class="photo__title">
@@ -86,7 +86,7 @@
       <article class="pictures__photo photo">
         <h3 class="visually-hidden">Фото Седоны</h3>
         <a class="photo__link" href="#">
-          <img class="photo__image" src="http://placehold.it/280x280" alt="Дорога на Север">
+          <img class="photo__image" src="img/photo-roads-mobile@1x.jpg" alt="Дорога на Север" width="280" height="280">
         </a>
         <section class="photo__info">
           <div class="photo__title">
@@ -102,7 +102,7 @@
       <article class="pictures__photo photo">
         <h3 class="visually-hidden">Фото Седоны</h3>
         <a class="photo__link" href="#">
-          <img class="photo__image" src="http://placehold.it/280x280" alt="Мост Дьявола">
+          <img class="photo__image" src="img/photo-bridge-mobile@1x.jpg" alt="Мост Дьявола" width="280" height="280">
         </a>
         <section class="photo__info">
           <div class="photo__title">
@@ -124,7 +124,7 @@
 
       <article class="pictures__video video">
         <h3 class="visually-hidden">Видео Седоны</h3>
-        <img class="video__player" src="http://placehold.it/320x201" alt="Видео Седоны">
+        <img class="video__player" src="img/video-mobile@1x.jpg" alt="Видео Седоны"  width="320" height="201">
 
         <ul class="video__buttons">
           <li class="video__button">
@@ -153,13 +153,13 @@
         <h3 class="visually-hidden">Мы в социальных сетях:</h3>
         <ul class="social__list">
           <li class="social__item">
-            <a class="social__link" href="#">Твиттер</a>
+            <a class="social__link" href="#"><span class="visually-hidden">Твиттер</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link" href="#">Фейсбук</a>
+            <a class="social__link" href="#"><span class="visually-hidden">Фейсбук</span></a>
           </li>
           <li class="social__item">
-            <a class="social__link" href="#">Ютуб</a>
+            <a class="social__link" href="#"><span class="visually-hidden">Ютуб</span></a>
           </li>
         </ul>
       </section>
