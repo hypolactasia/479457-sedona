@@ -1,5 +1,36 @@
+.site-list {
+  width: 320px;
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  background-color: $bg-blue;
+}
+
 .site-list__item {
+  height: 55px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid #678fa8;
+  }
+
+  &:not(:first-child) {
+    height: 54px;
+
+    border-top: 1px solid #9ac2db;
+  }
+
+  &:last-child {
+    box-shadow: inset 0 -7px 9px -7px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.site-list__link {
   @include font-h;
+
+  display: block;
+  padding-top: 7px;
+  padding-bottom: 10px;
 
   text-align: center;
   line-height: 40px;

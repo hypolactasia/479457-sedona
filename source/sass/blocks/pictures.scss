@@ -8,6 +8,8 @@
 
 .pictures__text {
   @include font-p;
+
+  width: 290px;
 }
 
 .photo__info {
@@ -37,5 +39,3 @@
 .pictures__prompt {
   text-align: center;
 }
-
-

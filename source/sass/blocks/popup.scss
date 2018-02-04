@@ -1,0 +1,16 @@
+.popup__heading {
+  @include font-h;
+}
+
+.popup__text {
+  @include font-p;
+}
+
+.popup__close {
+  @include font-btn;
+  @include btn;
+  font-size: 18px;
+  padding: 0;
+
+  border: 0;
+}

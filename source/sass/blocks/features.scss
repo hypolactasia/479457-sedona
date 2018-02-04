@@ -2,7 +2,17 @@
   text-align: center;
 }
 
-.features__text {
+.features__promt {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.features__caption {
+  @include font-h;
+  font-size: 21px;
+}
+
+.features__description {
   @include font-p;
 
   line-height: 26px;
@@ -15,13 +25,33 @@
   list-style: none;
 }
 
-.feature-list__item {
+.features-list__item {
   background-color: $bg-grey;
 
   &--bluebg {
     color: $text-h-light;
+
     background-color: $bg-blue;
   }
+}
+
+.features__heading {
+  @include font-h;
+  color: inherit;
+}
+
+.features__number {
+  @include font-p;
+
+  line-height: 21px;
+  color: inherit;
+}
+
+.features__text {
+  @include font-p;
+
+  line-height: 21px;
+  color: inherit;
 }
 
 .feature__sub-list {
@@ -32,44 +62,23 @@
 
 .feature__heading {
   @include font-h;
-  &--bluebg {
-    color: $text-h-light;
-  }
-}
 
-.feature__number {
-  @include font-p;
-
-  line-height: 21px;
-  &--bluebg {
-    color: $text-p-light;
-  }
+  margin-top: 29px;
+  margin-bottom: 14px;
 }
 
 .feature__text {
   @include font-p;
 
+  width: 220px;
+  margin: 0;
+
   line-height: 21px;
-  &--bluebg {
-    color: $text-p-light;
-  }
-}
-
-.features__promt {
-  text-align: center;
-}
-
-.features__heading {
-  @include font-h;
-  font-size: 21px;
-}
-
-.features__text {
-  @include font-p;
 }
 
 .features__btn {
-  margin: 0 auto;
+  @include btn;
+  @include font-btn;
 }
 
 

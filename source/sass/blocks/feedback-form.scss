@@ -27,7 +27,6 @@
   @include font-h;
 
   text-transform: none;
-
   border: 0;
   background-color: $color-input;
 
@@ -36,7 +35,16 @@
   }
 }
 
+.textarea {
+  @include font-h;
+
+  text-transform: none;
+  color: $text-h-dark;
+}
+
 .feedback__btn {
+  @include font-btn;
+  @include btn;
   padding: 0;
 
   border: 0;
